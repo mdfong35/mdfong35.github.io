@@ -35,6 +35,32 @@ body {
     color: #0073e6;
 }
 
+.top-nav2 {
+    width: 100%;
+    background-color: #ADD8E6; /* light blue */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: right;
+}
+
+.nav-container2 {
+    display: flex;
+    align-items: right;
+}
+
+.nav-links2 a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
 h1, h2, h3 {
     font-family: 'Georgia', serif;
     color: #222222;
