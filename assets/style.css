@@ -2,7 +2,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333333;
     background-color: #f9f9f9;
-    padding-top: 50px; /* space for top nav */
+    padding-top: 50px; 
 }
 
 /* Top nav bar */
@@ -19,13 +19,11 @@ body {
     align-items: right;
 }
 
-/* Nav container for left-aligned links */
 .nav-container {
     display: flex;
     align-items: right;
 }
 
-/* Links */
 .nav-links a {
     text-decoration: none;
     color: #333;
@@ -37,13 +35,11 @@ body {
     color: #0073e6;
 }
 
-/* Headings */
 h1, h2, h3 {
     font-family: 'Georgia', serif;
     color: #222222;
 }
 
-/* Flex container for image and text */
 .intro-container {
     display: flex;
     align-items: center; /* vertically center the image and text */
