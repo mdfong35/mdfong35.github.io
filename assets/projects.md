@@ -5,6 +5,18 @@ permalink: /projects/
 ---
 <link rel="stylesheet" href="assets/style.css">
 
+<nav class="top-nav">
+  <div class="nav-container">
+    <span class="site-title">Micayla Fong</span>
+    <div class="nav-links">
+      <a href="/projects/">Projects</a>
+      <a href="assets/Resume-MFong- pdf.pdf">Resume</a>
+      <a href="https://www.linkedin.com/in/micayla-fong-3555f/">LinkedIn</a>
+    </div>
+  </div>
+</nav>
+
+
 # My Projects
 
 <div class="project-card">
