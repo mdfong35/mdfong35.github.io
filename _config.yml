@@ -1,16 +1,8 @@
-title: Micayla Fong
-email: mdfong@usc.edu
-description: "Data Analytics & Professional Portfolio"
+title: Micayla Fong Portfolio
+description: Personal portfolio site
 baseurl: "" # leave empty unless using a project page
 url: "https://mdfong35.github.io"
 
 theme: jekyll-theme-minimal
 
-# Social links
-linkedin: https://www.linkedin.com/in/micayla-fong-3555f/
-resume: /assets/resume.pdf
-
-
-nav:
-  - title: Home
-    url: /
+markdown: kramdown
