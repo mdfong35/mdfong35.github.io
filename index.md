@@ -4,7 +4,8 @@ title: "Micayla Fong"
 permalink: /
 ---
 
-![My Photo](assets/IMG_0684 (1).jpeg)
+<img src="assets/IMG_0684 (1).jpeg" alt="My Photo" width="150" style="float: left; margin-right: 15px;">
+
 
 # Hi, I’m Micayla Fong 👋
 
