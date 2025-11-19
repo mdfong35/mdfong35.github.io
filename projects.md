@@ -1,20 +1,9 @@
 ---
-layout: home
+layout: default
 title: "Projects"
 permalink: /projects/
 ---
-<link rel="stylesheet" href="assets/style.css">
 
-<nav class="top-nav2">
-  <div class="nav-container2">
-    <span class="site-title2">Micayla Fong</span>
-    <div class="nav-links2">
-      <a href="index.html">Home</a>
-      <a href="assets/Resume-MFong- pdf.pdf">Resume</a>
-      <a href="https://www.linkedin.com/in/micayla-fong-3555f/">LinkedIn</a>
-    </div>
-  </div>
-</nav>
 
 
 # My Projects
