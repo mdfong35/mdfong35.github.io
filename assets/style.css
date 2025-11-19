@@ -22,7 +22,7 @@ body {
 /* Nav container for left-aligned links */
 .nav-container {
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 20px; /* spacing between site title and links */
 }
 
