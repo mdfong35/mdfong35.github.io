@@ -17,10 +17,6 @@ permalink: /
 </nav>
 
 
-<div class="profile-photo">
-  <img src="assets/IMG_0684 (1).jpeg" alt="My Photo">
-</div>
-
 
 <div class="intro-container">
   <div class="profile-photo">
