@@ -7,7 +7,7 @@ permalink: /projects/
 
 <nav class="top-nav2">
   <div class="nav-container2">
-    <span class="site-title">Micayla Fong</span>
+    <span class="site-title2">Micayla Fong</span>
     <div class="nav-links2">
       <a href="/">Home</a>
       <a href="assets/Resume-MFong- pdf.pdf">Resume</a>
