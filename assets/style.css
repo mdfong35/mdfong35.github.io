@@ -1,23 +1,19 @@
+/* Top nav bar */
 .top-nav {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #ADD8E6; /* light blue */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    padding: 10px 0;
-    position: fixed; 
+    padding: 10px 20px;  /* padding inside the bar */
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
-}
-
-.nav-container {
-    max-width: 1000px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
 }
 
+/* Links on the right */
 .nav-links a {
     text-decoration: none;
     color: #333;
@@ -45,13 +41,13 @@ h1, h2, h3 {
 
 
 .profile-photo img {
-    width: 250px;          /* smaller size */
-    border-radius: 10px;   /* optional rounded corners */
+    width: 250px;       
+    border-radius: 20px;  
     margin: 80px 0 20px 30px; /* move down and right */
-    float: right;          /* or left if you prefer */
+    float: left;          
 }
 
 
 body {
-    padding-top: 70px; /* space for top nav */
+    padding-top: 60px; /* space for top nav */
 }
