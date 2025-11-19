@@ -16,13 +16,13 @@ body {
     left: 0;
     z-index: 100;
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 /* Nav container for left-aligned links */
 .nav-container {
     display: flex;
-    align-items: left;
+    align-items: right;
     gap: 20px; /* spacing between site title and links */
 }
 
@@ -46,8 +46,8 @@ h1, h2, h3 {
 
 .profile-photo img {
     width: 250px;
-    border-radius: 20px;
+    border-radius: 50px;
     display: block;
-    margin: 0 0 20px 30px;
+    margin: 20px;
     float: left;
 }
