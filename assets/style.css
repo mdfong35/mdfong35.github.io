@@ -2,7 +2,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333333;
     background-color: #f9f9f9;
-    padding-top: 80px; /* space for top nav */
+    padding-top: 50px; /* space for top nav */
 }
 
 /* Top nav bar */
@@ -16,17 +16,14 @@ body {
     left: 0;
     z-index: 100;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-/* Nav container for centering links */
+/* Nav container for left-aligned links */
 .nav-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 20px; /* spacing between site title and links */
 }
 
 /* Links */
@@ -47,10 +44,10 @@ h1, h2, h3 {
     color: #222222;
 }
 
-@media screen and (max-width: 768px) {
-    .profile-photo img {
-        float: none;
-        margin: 20px auto;
-        display: block;
-    }
+.profile-photo img {
+    width: 250px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 0 20px 30px;
+    float: left;
 }
