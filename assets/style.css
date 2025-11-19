@@ -1,0 +1,57 @@
+.top-nav {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #0073e6;
+}
+
+
+/* Fonts */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333333; /* text color */
+    background-color: #f9f9f9; /* background color */
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #222222;
+}
+
+
+.profile-photo img {
+    width: 250px;          /* smaller size */
+    border-radius: 10px;   /* optional rounded corners */
+    margin: 80px 0 20px 30px; /* move down and right */
+    float: right;          /* or left if you prefer */
+}
+
+
+body {
+    padding-top: 70px; /* space for top nav */
+}
