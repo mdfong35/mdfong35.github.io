@@ -1,3 +1,11 @@
-theme: jekyll-theme-minimal
-title: "Micayla Fong"
-description: "Academic Portfolio "
+title: Micayla Fong
+email: mdfong@usc.edu
+description: "Data Analytics & Professional Portfolio"
+baseurl: "" # leave empty unless using a project page
+url: "https://mdfong35.github.io"
+
+theme: minimal-mistakes-jekyll
+
+# Social links
+linkedin: https://www.linkedin.com/in/micayla-fong-3555f/
+resume: /assets/resume.pdf
