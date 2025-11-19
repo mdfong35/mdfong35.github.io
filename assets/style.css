@@ -23,7 +23,6 @@ body {
 .nav-container {
     display: flex;
     align-items: right;
-    gap: 20px; /* spacing between site title and links */
 }
 
 /* Links */
@@ -44,13 +43,36 @@ h1, h2, h3 {
     color: #222222;
 }
 
+/* Flex container for image and text */
+.intro-container {
+    display: flex;
+    align-items: center; /* vertically center the image and text */
+    gap: 30px; /* space between image and text */
+    margin-top: 50px; /* move the whole section down */
+}
+
 .profile-photo img {
-    width: 250px;
-    border-radius: 50px;
+    width: 300px;
+    border-radius: 80px;
     display: block;
     margin: 20px;
     float: left;
 }
+
+/* Text styling */
+.intro-text h1 {
+    font-size: 3rem; /* make name bigger */
+    color: #1a73e8; /* example: blue color for your name */
+    margin: 0;
+}
+
+.intro-text p {
+    font-size: 1.2rem; /* adjust paragraph size */
+    color: #333333;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
 
 .project-card {
     border: 1px solid #ddd;
