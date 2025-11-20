@@ -5,42 +5,8 @@ body {
     padding-top: 50px; 
 }
 
-/* Top nav bar */
+
 .top-nav {
-    width: 100%;
-    background-color: #ADD8E6; /* light blue */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    display: flex;
-    align-items: right;
-}
-
-.nav-container {
-    display: flex;
-    align-items: right;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #333;
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-.nav-links a:hover {
-    color: #0073e6;
-}
-
-
-
-
-
-
-.top-nav2 {
   background-color: lightblue;
   padding: 1rem 2rem;
   width: 100%;
@@ -50,34 +16,34 @@ body {
   z-index: 1000;
 }
 
-.nav-container2 {
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
 }
 
-.site-title2 {
+.site-title {
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
   flex-shrink: 0;
 }
 
-.nav-links2 {
+.nav-links {
   display: flex;
   gap: 1.5rem;
   flex-shrink: 0;
 }
 
-.nav-links2 a {
+.nav-links a {
   color: #333;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
 
-.nav-links2 a:hover {
+.nav-links a:hover {
   color: #0066cc;
 }
 
@@ -89,7 +55,7 @@ body {
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
-  .top-nav2 {
+  .top-nav {
     padding: 0.75rem 1rem;
   }
   
@@ -97,21 +63,21 @@ body {
     font-size: 1.2rem;
   }
   
-  .nav-links2 {
+  .nav-links {
     gap: 1rem;
   }
   
-  .nav-links2 a {
+  .nav-links a {
     font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
-  .nav-links2 {
+  .nav-links {
     gap: 0.75rem;
   }
   
-  .nav-links2 a {
+  .nav-links a {
     font-size: 0.85rem;
   }
 }
@@ -128,34 +94,6 @@ h1, h2, h3 {
     color: #222222;
 }
 
-.intro-container {
-    display: flex;
-    align-items: center; /* vertically center the image and text */
-    gap: 30px; /* space between image and text */
-    margin-top: 50px; /* move the whole section down */
-}
-
-.profile-photo img {
-    width: 300px;
-    border-radius: 80px;
-    display: block;
-    margin: 20px;
-    float: left;
-}
-
-/* Text styling */
-.intro-text h1 {
-    font-size: 3rem; /* make name bigger */
-    color: #1a73e8; /* example: blue color for your name */
-    margin: 0;
-}
-
-.intro-text p {
-    font-size: 1.2rem; /* adjust paragraph size */
-    color: #333333;
-    margin-top: 10px;
-    line-height: 1.5;
-}
 
 
 .project-card {
