@@ -97,10 +97,9 @@ h1, h2, h3 {
 }
 
 .project-thumbnail {
-    max-width: 150px; 
+    max-width: 300px; 
     height: auto;
     border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
 .analysis-text {
