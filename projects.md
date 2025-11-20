@@ -26,7 +26,7 @@ permalink: /projects/
     </div>
   </div>
   
-  <a href="/assets/KMEANS.pdf" target="_blank">View Code 📄</a>
+  <a href="/assets/code.pdf" target="_blank">View Code 📄</a>
 </div>
 
 
