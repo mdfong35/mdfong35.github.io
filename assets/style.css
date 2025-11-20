@@ -45,6 +45,10 @@ body {
   color: #0066cc;
 }
 
+.nav-links a:last-child {
+  margin-right: 1rem;
+}
+
 
 
 
