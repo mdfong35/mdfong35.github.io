@@ -79,7 +79,7 @@ h1, h2, h3 {
 
 .project-card a {
     color: #333333;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
 }
 
