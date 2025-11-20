@@ -88,4 +88,24 @@ h1, h2, h3 {
     color: hotpink;
 }
 
+.project-analysis {
+    display: flex;
+    align-items: flex-start; /* aligns text to top of image */
+    gap: 20px; /* space between image and text */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-thumbnail {
+    max-width: 150px; /* adjust size as needed */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.analysis-text {
+    flex: 1; /* takes remaining space next to image */
+}
+
+
 
