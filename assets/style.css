@@ -58,7 +58,9 @@ body {
 
 
 
-
+h2 {
+  margin-left: 40px; /* Adjust the value as needed (px, em, rem, %) */
+}
 
 h1, h2, h3 {
     font-family: 'Georgia', serif;
