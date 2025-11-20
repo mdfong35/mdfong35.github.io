@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Home
-permalink: /
 ---
 <link rel="stylesheet" href="assets/home.css">
 
