@@ -107,5 +107,23 @@ h1, h2, h3 {
     flex: 1; /* takes remaining space next to image */
 }
 
+/* Crop container */
+.img-crop-container {
+  width: 250px;         /* adjust this for final crop width */
+  height: 180px;        /* adjust this for final crop height */
+  overflow: hidden;     /* hides rest of the image */
+  border-radius: 12px;  /* optional rounded corners */
+  position: relative;
+}
+
+/* Image inside crop */
+.img-crop-container img {
+  height: 100%;         /* makes image fill height */
+  width: auto;          /* keeps aspect ratio */
+  position: absolute;
+  top: -20px;           /* adjust to move image up/down */
+  left: -10px;          /* adjust to move image left/right */
+}
+
 
 
