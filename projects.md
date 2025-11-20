@@ -12,9 +12,12 @@ permalink: /projects/
   <h2>Data Analytics for Special Topics: Baseball Metrics</h2>
   <p>For this project I cleaned and transformed raw historical baseball datasets spanning 120 years, standardizing metrics and handling missing values to ensure consistency while avoiding selection bias in statistical analysis. My goal was to identify perfromance profiles that have been historically relevant. I wanted to uncover relationships between the various offensive and defensive metrics to ultimately inform reccomendations for training and competition strategy.</p>
   <a href="/assets/Baseball.pdf" target="_blank">View Project 📄</a>
+  
 <div class="project-analysis">
     <a href="/assets/Baseball.pdf" target="_blank">
-      <img src="/assets/PCA.jpg" alt="Baseball Project PDF" class="project-thumbnail">
+      <div class="img-crop-container">
+        <img src="/assets/PCA.jpg" alt="Baseball Project PDF" class="project-thumbnail">
+      </div>
     </a>
     <div class="analysis-text">
       <h3>Analysis:</h3>
