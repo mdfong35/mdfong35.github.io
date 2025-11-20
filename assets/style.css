@@ -42,7 +42,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ff3366;
+  color: pink;
 }
 
 .nav-links a:last-child {
