@@ -16,7 +16,7 @@
 /* Text styling */
 .intro-text h1 {
     font-size: 3rem; /* make name bigger */
-    color: navyblue;
+    color: #333333;
     margin: 0;
 }
 
