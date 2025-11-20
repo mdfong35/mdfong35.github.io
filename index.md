@@ -5,7 +5,6 @@ permalink: /
 ---
 <link rel="stylesheet" href="assets/home.css">
 
-# Welcome to my portfolio
 
 <div class="intro-container">
   <div class="profile-photo">
