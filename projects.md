@@ -14,7 +14,7 @@ permalink: /projects/
   <a href="/assets/Baseball.pdf" target="_blank">View Project 📄</a>
 <div class="project-analysis">
     <a href="/assets/Baseball.pdf" target="_blank">
-      <img src="/assets/Baseball-thumbnail.png" alt="Baseball Project PDF" class="project-thumbnail">
+      <img src="/assets/KMEANS.pdf" alt="Baseball Project PDF" class="project-thumbnail">
     </a>
     <div class="analysis-text">
       <h3>Analysis:</h3>
