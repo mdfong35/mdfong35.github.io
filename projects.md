@@ -10,7 +10,7 @@ permalink: /projects/
 
 <div class="project-card">
   <h2>Data Analytics for Special Topics: Baseball Metrics</h2>
-  <p>For this project I cleaned and transformed raw historical baseball datasets spanning 120 years, standardizing metrics and handling missing values to ensure consistency while avoiding selection bias in statistical analysis.</p>
+  <p>For this project I cleaned and transformed raw historical baseball datasets spanning 120 years, standardizing metrics and handling missing values to ensure consistency while avoiding selection bias in statistical analysis. My goal was to identify perfromance profiles that have been historically relevant. I wanted to uncover relationships between the various offensive and defensive metrics to ultimately inform reccomendations for training and competition strategy.</p>
   <h3>Analysis: </h3>
   <p>
     I performed linear regression analysis in R to determine statistically significant relationships between home game ratios and
