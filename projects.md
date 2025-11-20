@@ -18,13 +18,13 @@ Analyses:
 implications of gameplay styles. To deliver my insights I developed a Tableau dashboard with graphs and visualizations to illustrate statistical relationships, enabling clear
 communication of performance patterns and findings to technical and non-technical audiences.</p>
   <a href="/assets/Baseball.pdf" target="_blank">View Project</a>
-  <a href="/assets/KMEANS.pdf" target="_blank">View Code</a>
+  <a href="/assets/KMEANS.pdf" target="_blank"> View Code</a>
 </div>
 
 <div class="project-card">
   <h2>Project 2</h2>
   <p>Brief description of what it does.</p>
-  <a href="#">View Project</a>
+  <a href="#"> View Project</a>
 </div>
 
 <div class="project-card">
