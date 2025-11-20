@@ -6,7 +6,7 @@ permalink: /projects/
 
 
 
-<h1> My Projects</h1>
+<h1>My Projects</h1>
 
 <div class="project-card">
   <h2>Data Analytics for Special Topics: Baseball Metrics</h2>
