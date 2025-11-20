@@ -109,8 +109,8 @@ h1, h2, h3 {
 
 /* Crop container */
 .img-crop-container {
-  width: 250px;         /* adjust this for final crop width */
-  height: 180px;        /* adjust this for final crop height */
+  width: 400px;         /* adjust this for final crop width */
+  height: 250px;        /* adjust this for final crop height */
   overflow: hidden;     /* hides rest of the image */
   border-radius: 12px;  /* optional rounded corners */
   position: relative;
@@ -122,7 +122,7 @@ h1, h2, h3 {
   width: auto;          /* keeps aspect ratio */
   position: absolute;
   top: -20px;           /* adjust to move image up/down */
-  left: -10px;          /* adjust to move image left/right */
+  left: -20px;          /* adjust to move image left/right */
 }
 
 
