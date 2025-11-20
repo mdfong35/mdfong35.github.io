@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Projects"
+title: Projects
 permalink: /projects/
 ---
 
@@ -21,13 +21,13 @@ communication of performance patterns and findings to technical and non-technica
 </div>
 
 <div class="project-card">
-  <h2>Cool Project 2</h2>
+  <h2>Project 2</h2>
   <p>Brief description of what it does.</p>
   <a href="#">View Project</a>
 </div>
 
 <div class="project-card">
-  <h2>Interesting Project 3</h2>
+  <h2>Project 3</h2>
   <p>Brief description of what it does.</p>
   <a href="#">View Project</a>
 </div>
