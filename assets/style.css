@@ -117,17 +117,18 @@ h1, h2, h3 {
 */
 
 .img-crop-container {
-  width: 300px;       /* fixed width of the visible image */
-  height: 200px;      
+  width: 300px;       /* fixed width */
+  max-height: 200px;  /* prevent very tall images from expanding too much */
   overflow: hidden;     
   border-radius: 12px;  
   position: relative;
 }
 
 .img-crop-container img {
-  width: 100%;      /* fills container width */
-  height: auto;     /* keeps aspect ratio */
-  position: relative;  /* no longer absolute */
+  width: 100%;      
+  height: 100%;     /* fill container height */
+  object-fit: cover; /* crops image if too tall/wide */
+  position: relative;
   top: 0;
   left: 0;
 }
