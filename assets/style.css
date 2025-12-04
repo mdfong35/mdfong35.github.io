@@ -107,17 +107,19 @@ h1, h2, h3 {
 }
 
 .img-crop-container {
-  width: 220px;  
-  height: 180px;
-  overflow: hidden;
-  position: relative;
-  flex-shrink: 0;
+    width: 220px;    /* fixed width for all images */
+    height: 180px;   /* fixed height for all images */
+    overflow: hidden;
+    flex-shrink: 0;  /* prevent shrinking in flex layout */
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .img-crop-container img {
-  position: absolute;
-  width: auto;
-  height: 100%;
+    width: 100%;     /* make image fill container width */
+    height: 100%;    /* make image fill container height */
+    object-fit: cover; /* crop image to fill container without stretching */
+    display: block;
 }
 
 
