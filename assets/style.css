@@ -71,7 +71,7 @@ h1, h2, h3 {
 .project-card {
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     margin: 30px 20px;
     background-color: #fae1f2;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -91,13 +91,13 @@ h1, h2, h3 {
 .project-analysis {
     display: flex;
     align-items: flex-start; 
-    gap: 10px; 
+    gap: 15px; 
     margin-top: 5px; 
     margin-bottom: 5px;
 }
 
 .project-thumbnail {
-    max-width: 280px; 
+    max-width: 220px; 
     height: auto;
     border: 1px solid #ccc;
 }
@@ -107,18 +107,17 @@ h1, h2, h3 {
 }
 
 .img-crop-container {
-  width: 280px;  
+  width: 220px;  
   height: 180px;
   overflow: hidden;
   position: relative;
+  flex-shrink: 0;
 }
 
 .img-crop-container img {
   position: absolute;
   width: auto;
   height: 100%;
-  top: -10px;
-  left: -5px;
 }
 
 
