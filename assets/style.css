@@ -97,7 +97,7 @@ h1, h2, h3 {
 }
 
 .project-thumbnail {
-    max-width: 220px; 
+    max-width: 240px; 
     height: auto;
     border: 1px solid #ccc;
 }
