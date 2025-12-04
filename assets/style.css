@@ -91,7 +91,7 @@ h1, h2, h3 {
 .project-analysis {
     display: flex;
     align-items: flex-start; 
-    gap: 20px; 
+    gap: 5px; 
     margin-top: 5px; 
     margin-bottom: 5px;
 }
@@ -106,13 +106,21 @@ h1, h2, h3 {
     flex: 1; /* takes remaining space next to image */
 }
 
-/* Crop container */
+/*
 .img-crop-container {
-  width: 410px;         /* adjust this for final crop width */
-  height: 230px;        /* adjust this for final crop height */
-  overflow: hidden;     /* hides rest of the image */
-  border-radius: 12px;  /* optional rounded corners */
+  width: 350px;      
+  height: 200px;        
+  overflow: hidden;     
+  border-radius: 12px;  
   position: relative;
+}
+*/
+
+.img-crop-container {
+  width: fit-content;
+  height: auto;
+  overflow: hidden;
+  border-radius: 12px;
 }
 
 /* Image inside crop */
@@ -121,7 +129,7 @@ h1, h2, h3 {
   width: auto;          /* keeps aspect ratio */
   position: absolute;
   top: -20px;           /* adjust to move image up/down */
-  left: -10px;          /* adjust to move image left/right */
+  left: -15px;          /* adjust to move image left/right */
 }
 
 
