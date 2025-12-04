@@ -13,6 +13,27 @@
     float: left;
 }
 
+/* Container for image + quote */
+.profile-photo {
+    display: flex;
+    flex-direction: column; /* stacks image and quote vertically */
+    align-items: center;    /* centers both */
+    width: 300px;           /* matches image width so quote stays inside */
+}
+
+/* Quote styling */
+.photo-quote {
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-size: 1.3rem;
+    color: #555;
+    margin-top: -10px;        /* pull closer to image (optional) */
+    text-align: center;
+    max-width: 100%;          /* prevents overflow */
+    white-space: normal;      
+}
+
+
+
 /* Text styling */
 .intro-text h1 {
     font-size: 3rem; /* make name bigger */
