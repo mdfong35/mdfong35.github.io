@@ -71,7 +71,7 @@ h1, h2, h3 {
 .project-card {
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     margin: 30px 20px;
     background-color: #fae1f2;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -91,9 +91,9 @@ h1, h2, h3 {
 .project-analysis {
     display: flex;
     align-items: flex-start; 
-    gap: 10px; 
-    margin-top: 10px; 
-    margin-bottom: 20px;
+    gap: 5px; 
+    margin-top: 5px; 
+    margin-bottom: 10px;
 }
 
 .project-thumbnail {
@@ -108,8 +108,8 @@ h1, h2, h3 {
 
 /* Crop container */
 .img-crop-container {
-  width: 400px;         /* adjust this for final crop width */
-  height: 250px;        /* adjust this for final crop height */
+  width: 410px;         /* adjust this for final crop width */
+  height: 230px;        /* adjust this for final crop height */
   overflow: hidden;     /* hides rest of the image */
   border-radius: 12px;  /* optional rounded corners */
   position: relative;
