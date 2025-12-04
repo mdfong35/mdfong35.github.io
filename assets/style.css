@@ -71,7 +71,7 @@ h1, h2, h3 {
 .project-card {
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     margin: 30px 20px;
     background-color: #fae1f2;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -91,7 +91,7 @@ h1, h2, h3 {
 .project-analysis {
     display: flex;
     align-items: flex-start; 
-    gap: 5px; 
+    gap: 0px; 
     margin-top: 5px; 
     margin-bottom: 5px;
 }
@@ -117,20 +117,19 @@ h1, h2, h3 {
 */
 
 .img-crop-container {
-  width: fit-content;
-  height: auto;
-  overflow: hidden;
-  border-radius: 12px;
+  width: 300px;       /* fixed width of the visible image */
+  height: 200px;      
+  overflow: hidden;     
+  border-radius: 12px;  
+  position: relative;
 }
 
-/* Image inside crop */
 .img-crop-container img {
-  height: 100%;         /* makes image fill height */
-  width: auto;          /* keeps aspect ratio */
-  position: absolute;
-  top: -20px;           /* adjust to move image up/down */
-  left: -15px;          /* adjust to move image left/right */
+  width: 100%;      /* fills container width */
+  height: auto;     /* keeps aspect ratio */
+  position: relative;  /* no longer absolute */
+  top: 0;
+  left: 0;
 }
-
 
 
