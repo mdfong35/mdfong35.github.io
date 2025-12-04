@@ -107,7 +107,7 @@ h1, h2, h3 {
 }
 
 .img-crop-container {
-    width: 220px;    /* fixed width for all images */
+    width: 240px;    /* fixed width for all images */
     height: 180px;   /* fixed height for all images */
     overflow: hidden;
     flex-shrink: 0;  /* prevent shrinking in flex layout */
