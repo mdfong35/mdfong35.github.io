@@ -91,7 +91,7 @@ h1, h2, h3 {
 .project-analysis {
     display: flex;
     align-items: flex-start; 
-    gap: 0px; 
+    gap: 10px; 
     margin-top: 5px; 
     margin-bottom: 5px;
 }
