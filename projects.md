@@ -63,19 +63,19 @@ permalink: /projects/
 
 
 <div class="project-card">
-  <h2>Project 3</h2>
-  <a href="/assets/AIConceptsDemoFong.pdf" target="_blank">View Work 📄</a>
+  <h2>Transfer Portal Motivation Data Analysis</h2>
+  <a href="/assets/MINIProjectFong.pdf" target="_blank">View Project 📄</a>
   
 <div class="project-analysis">
-    <a href="/assets/AIConceptsDemoFong.pdf" target="_blank">
+    <a href="/assets/MINIProjectFong.pdf" target="_blank">
       <div class="img-crop-container">
-        <img src="/assets/Minimax.jpg" alt="AI Demo PDF" class="project-thumbnail">
+        <img src="/assets/miniProject.jpg" alt="Transfer Portal PDF" class="project-thumbnail">
       </div>
     </a>
     <div class="analysis-text">
       <h3>About:</h3>
       <p>
-          In this assignment I was assessed on concepts from a class on the basics of Artificial Intelligence. Some of the topics included were the Turing Test and epistemic vs instrumental rationality, multiple search algorithms, and variants of the Minimax algorithm. This assignment challenged my ability to apply complex concepts to new applications that I had not worked with before. The first example which prompted me to provide an argument for and against the same statement, broadened my understanding by stimulating logical reasoning on opposing stances of one concept.
+In this project, I investigated whether the NCAA rules enforced in 2019 had their intended effect on reducing the number of athletes entering the transfer portal. I began by researching the specific rule changes implemented and their motivations. I then collected data from USC men's basketball transfers over a 10-year period using official rosters and verified the information through ESPN articles. To analyze the impact, I performed a paired t-test comparing transfer rates before and after the rule implementation indicating no statistically significant effect. I then conducted an adjusted analysis accounting for the implementation timeline which showed improved but still non significant results. Throughout the project, I acknowledged important limitations including logical factors, access constraints, and other variables such as coaching changes, injuries, and draft prospects. I also conducted additional regression testing to explore relationships between injuries, draft status, and transfer activity.
       </p>
     </div>
   </div>
