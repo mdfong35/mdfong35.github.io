@@ -29,10 +29,9 @@ permalink: /projects/
       <p>
         Skills: R, Python, Data Visualization, Profile Clustering, Statistical Analysis.
       </p>
+       <a href="/assets/code.pdf" target="_blank">View Code 📄</a>
     </div>
   </div>
-  
-  <a href="/assets/code.pdf" target="_blank">View Code 📄</a>
 </div>
 
 
@@ -55,7 +54,7 @@ permalink: /projects/
     <div class="analysis-text">
       <h3>About:</h3>
       <p>
-        In this assignment I was assessed on concepts from a class on the basics of Artificial Intelligence. Some of the topics included were the Turing Test and epistemic vs instrumental rationality, multiple search algorithms, and variants of the Minimax algorithm. 
+          In this assignment I was assessed on concepts from a class on the basics of Artificial Intelligence. Some of the topics included were the Turing Test and epistemic vs instrumental rationality, multiple search algorithms, and variants of the Minimax algorithm. This assignment challenged my ability to apply complex concepts to new applications that I had not worked with before. The first example which prompted me to provide an argument for and against the same statement, broadened my understanding by stimulating logical reasoning on opposing stances of one concept.
       </p>
     </div>
   </div>
@@ -65,6 +64,19 @@ permalink: /projects/
 
 <div class="project-card">
   <h2>Project 3</h2>
-  <p>Brief description of what it does.</p>
-  <a href="#">View Project</a>
+  <a href="/assets/AIConceptsDemoFong.pdf" target="_blank">View Work 📄</a>
+  
+<div class="project-analysis">
+    <a href="/assets/AIConceptsDemoFong.pdf" target="_blank">
+      <div class="img-crop-container">
+        <img src="/assets/Minimax.jpg" alt="AI Demo PDF" class="project-thumbnail">
+      </div>
+    </a>
+    <div class="analysis-text">
+      <h3>About:</h3>
+      <p>
+          In this assignment I was assessed on concepts from a class on the basics of Artificial Intelligence. Some of the topics included were the Turing Test and epistemic vs instrumental rationality, multiple search algorithms, and variants of the Minimax algorithm. This assignment challenged my ability to apply complex concepts to new applications that I had not worked with before. The first example which prompted me to provide an argument for and against the same statement, broadened my understanding by stimulating logical reasoning on opposing stances of one concept.
+      </p>
+    </div>
+  </div>
 </div>
