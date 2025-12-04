@@ -9,6 +9,7 @@ permalink: /
 <div class="intro-container">
   <div class="profile-photo">
     <img src="assets/IMG_0684 (1).jpeg" alt="My Photo">
+    <p class="photo-quote">"Always up for a good challenge"</p>
   </div>
   <div class="intro-text">
     <h1>Hi, I’m Micayla Fong 👋</h1>
