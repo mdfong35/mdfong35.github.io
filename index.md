@@ -21,16 +21,5 @@ permalink: /
 
 
 
-<section class="contact-section">
-  <h2>Contact</h2>
-  <p>If you would like to connect about internships, projects, or analytics-focused opportunities, feel free to reach out.</p>
-  <div class="contact-links">
-    <a href="mailto:micaylafong@gmail.com">Email</a>
-    <a href="https://www.linkedin.com/in/micayla-fong-3555f/" target="_blank">LinkedIn</a>
-    <a href="/assets/Resume.pdf" target="_blank">Resume</a>
-  </div>
-</section>
-
-
 
 
