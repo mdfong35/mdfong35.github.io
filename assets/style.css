@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
 :root {
   --bg: #0f172a;
   --bg-elevated: #172033;
@@ -12,7 +14,7 @@
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--text-primary);
   background:
     radial-gradient(circle at top, rgba(147, 197, 253, 0.12), transparent 34%),
@@ -22,18 +24,28 @@ body {
   line-height: 1.6;
 }
 
-.top-nav {
-  background-color: rgba(15, 23, 42, 0.95);
-  padding: 1rem;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(10px);
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
 }
 
+.nav-links a {
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  color: var(--text-primary);
+}
 .nav-container {
   display: flex;
   justify-content: space-between;
