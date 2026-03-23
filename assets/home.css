@@ -34,12 +34,14 @@
 
 .intro-text h1 {
     font-size: 3rem;
+    font-family: "IBM Plex Mono", "Courier New", monospace;
     color: var(--text-primary);
     margin: 0;
 }
 
 .intro-text p {
     font-size: 1.1rem;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f1f5f9;
     margin-top: 10px;
     line-height: 1.8;
