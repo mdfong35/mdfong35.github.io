@@ -1,19 +1,37 @@
+:root {
+  --bg: #0f172a;
+  --bg-elevated: #172033;
+  --bg-card: #1e293b;
+  --border: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #e2e8f0;
+  --text-muted: #cbd5e1;
+  --accent: #93c5fd;
+  --accent-strong: #bfdbfe;
+  --shadow: 0 14px 36px rgba(0, 0, 0, 0.32);
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #e5e7eb;
-  background-color: #111827;
+  color: var(--text-primary);
+  background:
+    radial-gradient(circle at top, rgba(147, 197, 253, 0.12), transparent 34%),
+    linear-gradient(180deg, #172554 0%, var(--bg) 100%);
+  background-color: var(--bg);
   padding-top: 50px;
+  line-height: 1.6;
 }
 
 .top-nav {
-  background-color: #0f172a;
+  background-color: rgba(15, 23, 42, 0.95);
   padding: 1rem;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
-  border-bottom: 1px solid #1f2937;
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
 }
 
 .nav-container {
@@ -26,7 +44,8 @@ body {
 .site-title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #f9fafb;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
 }
 
 .nav-links {
@@ -36,13 +55,13 @@ body {
 }
 
 .nav-links a {
-  color: #d1d5db;
+  color: var(--text-secondary);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #60a5fa;
+  color: var(--accent);
 }
 
 .nav-links a:last-child {
@@ -57,26 +76,30 @@ h1,
 h2,
 h3 {
   font-family: Georgia, serif;
-  color: #f9fafb;
+  color: var(--text-primary);
+}
+
+p {
+  color: var(--text-secondary);
 }
 
 .project-card {
-  border: 1px solid #374151;
-  border-radius: 10px;
-  padding: 15px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
   margin: 30px 20px;
-  background-color: #1f2937;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(23, 32, 51, 0.98));
+  box-shadow: var(--shadow);
 }
 
 .project-card a {
-  color: #93c5fd;
+  color: var(--accent);
   text-decoration: underline;
   font-weight: bold;
 }
 
 .project-card a:hover {
-  color: #bfdbfe;
+  color: var(--accent-strong);
 }
 
 .project-analysis {
@@ -90,12 +113,12 @@ h3 {
 .project-thumbnail {
   max-width: 240px;
   height: auto;
-  border: 1px solid #4b5563;
+  border: 1px solid var(--border);
 }
 
 .analysis-text {
   flex: 1;
-  color: #d1d5db;
+  color: var(--text-secondary);
 }
 
 .img-crop-container {
@@ -103,9 +126,9 @@ h3 {
   height: 180px;
   overflow: hidden;
   flex-shrink: 0;
-  border: 1px solid #4b5563;
-  border-radius: 5px;
-  background-color: #111827;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--bg-elevated);
 }
 
 .img-crop-container img {
