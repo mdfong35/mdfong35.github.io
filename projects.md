@@ -10,7 +10,7 @@ permalink: /projects/
 
 <div class="project-card">
   <h2>Data Analytics for Special Topics: Baseball Metrics</h2>
-  <p>For this project I cleaned and transformed raw historical baseball datasets spanning 120 years, standardizing metrics and handling missing values to ensure consistency while avoiding selection bias in statistical analysis. My goal was to identify perfromance profiles that have been historically relevant. I wanted to uncover relationships between the various offensive and defensive metrics to ultimately inform reccomendations for training and competition strategy.</p>
+  <p>I analyzed 120 years of baseball data to identify performance patterns that matter most to team outcomes. The project focused on turning inconsistent historical records into a usable dataset and then extracting insights that could support training and game strategy decisions.</p>
   <a href="/assets/Baseball.pdf" target="_blank">View Project 📄</a>
   
 <div class="project-analysis">
@@ -20,11 +20,9 @@ permalink: /projects/
       </div>
     </a>
     <div class="analysis-text">
-      <h3>Analysis:</h3>
+      <h3>Approach and Results:</h3>
       <p>
-        I performed linear regression analysis in R to determine statistically significant relationships between home game ratios and
-        8 other variables such as ERA, runs scored, and walks allowed. I then reduced dataset dimensionality using PCA and applied K-means clustering to uncover distinct team performance profiles. Finally, I applied Anova tests to validate statistical differences across clusters, supporting deeper exploration into strategic
-        implications of gameplay styles. To deliver my insights I developed a Tableau dashboard with graphs and visualizations to illustrate statistical relationships, enabling clear communication of performance patterns and findings to technical and non-technical audiences.
+        I cleaned and standardized a large historical dataset, then used linear regression, PCA, K-means clustering, and ANOVA testing to evaluate which offensive and defensive variables were most associated with team performance. The analysis surfaced distinct team profiles and highlighted statistically meaningful relationships among metrics such as ERA, runs scored, and walks allowed. I packaged the findings into a Tableau dashboard so the results could be explored visually and communicated clearly to both technical and non-technical audiences.
       </p>
       <p>
         Skills: R, Python, Data Visualization, Profile Clustering, Statistical Analysis.
@@ -43,6 +41,7 @@ permalink: /projects/
 
 <div class="project-card">
   <h2>A Conceptual Demo of Popular AI Topics</h2>
+  <p>This project translated core artificial intelligence concepts into clear, applied reasoning exercises. Rather than only defining ideas, I focused on showing that I could use them in unfamiliar scenarios and explain tradeoffs in a structured way.</p>
   <a href="/assets/AIConceptsDemoFong.pdf" target="_blank">View Work 📄</a>
   
 <div class="project-analysis">
@@ -52,9 +51,12 @@ permalink: /projects/
       </div>
     </a>
     <div class="analysis-text">
-      <h3>About:</h3>
+      <h3>Approach and Results:</h3>
       <p>
-          In this assignment I was assessed on concepts from a class on the basics of Artificial Intelligence. Some of the topics included were the Turing Test and epistemic vs instrumental rationality, multiple search algorithms, and variants of the Minimax algorithm. This assignment challenged my ability to apply complex concepts to new applications that I had not worked with before. The first example which prompted me to provide an argument for and against the same statement, broadened my understanding by stimulating logical reasoning on opposing stances of one concept.
+          I worked through topics including the Turing Test, epistemic versus instrumental rationality, search algorithms, and variants of Minimax. The strongest part of the assignment was applying those ideas to new contexts instead of repeating memorized definitions. By building arguments from multiple perspectives and comparing algorithmic choices, I demonstrated both conceptual understanding and the ability to reason through ambiguity.
+      </p>
+      <p>
+        Skills: Artificial Intelligence, Search Algorithms, Logical Reasoning, Decision-Making.
       </p>
     </div>
   </div>
@@ -64,6 +66,7 @@ permalink: /projects/
 
 <div class="project-card">
   <h2>Transfer Portal Motivation Data Analysis</h2>
+  <p>This project examined whether the NCAA's 2019 transfer policy changes reduced transfer portal activity. I approached it as a policy-impact question, combining sports research with statistical testing to evaluate whether the rule changes had their intended effect.</p>
   <a href="/assets/MINIProjectFong.pdf" target="_blank">View Project 📄</a>
   
 <div class="project-analysis">
@@ -73,9 +76,12 @@ permalink: /projects/
       </div>
     </a>
     <div class="analysis-text">
-      <h3>About:</h3>
+      <h3>Approach and Results:</h3>
       <p>
-In this project, I investigated whether the NCAA rules enforced in 2019 had their intended effect on reducing the number of athletes entering the transfer portal. I began by researching the specific rule changes implemented and their motivations. I then collected data from USC men's basketball transfers over a 10-year period using official rosters and verified the information through ESPN articles. To analyze the impact, I performed a paired t-test comparing transfer rates before and after the rule implementation indicating no statistically significant effect. I then conducted an adjusted analysis accounting for the implementation timeline which showed improved but still non significant results. Throughout the project, I acknowledged important limitations including logical factors, access constraints, and other variables such as coaching changes, injuries, and draft prospects. I also conducted additional regression testing to explore relationships between injuries, draft status, and transfer activity.
+        I researched the policy change, collected and verified a 10-year dataset on USC men's basketball transfers, and compared transfer behavior before and after implementation using paired t-tests. The results did not show a statistically significant reduction in transfer activity, even after adjusting for rollout timing. I also explored related factors such as injuries, coaching changes, and draft prospects to frame the limitations of the study and show where future analysis could go deeper.
+      </p>
+      <p>
+        Skills: Statistical Testing, Data Collection, Sports Analytics, Policy Analysis, Regression Analysis.
       </p>
     </div>
   </div>
